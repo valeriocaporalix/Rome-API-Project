@@ -1,0 +1,164 @@
+.App {
+  background-color: rgba(106, 119, 133, 0.9);
+  height: 100vh;
+}
+
+.header {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 80px;
+}
+
+.search-by-id-form {
+  position: absolute;
+  top: 150px;
+  left: 740px;
+  margin-right: 3%;
+  margin-left: 5%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(35, 55, 75, 0.869);
+  box-shadow: 0px 4px 20px rgba(35, 55, 75, 0.9);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(250, 183, 136);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(255, 147, 70);
+  color: rgb(0, 0, 0);
+}
+
+#test-btn {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 20px 40px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  right: 5%;
+  border-radius: 7px;
+}
+
+.marker {
+  background-color: rgb(255, 147, 70);
+  box-shadow: 0px 0px 5px black;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.marker:hover {
+  background-color: rgb(245, 187, 146);
+}
+
+.mapboxgl-popup {
+  color: black;
+  background-color: #91785D;
+  border-color: #91785D;
+  max-width: 250px;
+  box-shadow: 3px 3px 20px #8B5D33;
+  font-family: 'Oswald';
+  border-radius: 30px;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    border-bottom-color: rgb(255, 173, 114) !important;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    border-top-color: rgb(255, 173, 114) !important;
+}
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: rgb(255, 173, 114) !important;
+}
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: rgb(255, 173, 114) !important;
+}
+
+.mapboxgl-popup-close-button {
+  display:none;
+}
+
+.mapboxgl-popup-main {
+  color: red;
+}
+
+#popup {
+  position: absolute;
+  width: 200px;
+  bottom: 0px;
+  right: -90px;
+  color: black;
+  background-color: rgb(255, 173, 114);
+  border-color: #91785D;
+  max-width: 250px;
+  box-shadow: 3px 3px 20px #8B5D33;
+  text-align: center;
+  font-family: 'Oswald';
+  border-radius: 30px;
+}
+
+#popup-p {
+  margin: 10px;
+  font-size: 15px;
+}
+
+#popup-h3 {
+  margin: 15px;
+  font-family: monospace;
+}
+
+.input-form {
+  background-color: rgba(35, 55, 75, 0.9);
+  border-color: rgba(70, 98, 126, 0.9);
+  border-radius: 7px;
+  height: 20px;
+  color: white;
+  box-shadow: 5px 5px 5px rgba(35, 55, 75, 0.9);
+  outline: none;
+}
+
+.form-btn {
+  margin-left: 30px;
+  background-color: rgb(255, 147, 70);
+  height: 30px;
+  width: 60px;
+  outline: none;
+  border-color: rgb(206, 120, 58);
+  box-shadow: 0px 0px 9px rgb(255, 173, 114);
+  border-radius: 15px;
+  font-family: monospace;
+}
+
+/* Remove Spinners and Arrow from inputs*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
