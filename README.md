@@ -53,6 +53,7 @@ Tutte le dependencies sono visualizzate nel *package.json*.
 (***Bash Scripting***)
 
 *npm start*
+
 *cd backend && nodemon server*
 
 Appearance:
