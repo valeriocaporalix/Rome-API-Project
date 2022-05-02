@@ -61,7 +61,7 @@ Screnshoot
 
 ![App Screenshot](./Screenshot2.png "Screenshot")
 
-Conclusions:
+Conclusioni:
 ---
 
 Lavoro in corso
