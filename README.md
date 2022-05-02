@@ -56,10 +56,9 @@ Tutte le dependencies sono visualizzate nel *package.json*.
 
 *cd backend && nodemon server*
 
-Appearance:
+Screnshoot
 ---
 
-**Apparenza dell'APP**
 ![App Screenshot](./Screenshot2.png "Screenshot")
 
 Conclusions:
