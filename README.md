@@ -26,7 +26,7 @@ Lavori in corso
 
 **Clusters**
 
-Per migliorare l'efficienza della mappa interattiva, saranno create dei cluster con il numero di *Marker* da visualizzare
+Per migliorare l'efficienza della mappa interattiva, saranno creati dei cluster con il numero di *Marker* da visualizzare
 una volta effettuato lo zoom sulla zona.
 
 **Modulo di ricerca alternativo**
